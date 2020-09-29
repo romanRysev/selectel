@@ -1,0 +1,14 @@
+:root {
+  --header-font-weight: bold;
+  --header-font-size: 18px;
+  --header-line-height: 25px;;
+}
+
+body {
+  font-family: Manrope,Roboto,sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  padding: 0 64px;
+}
