@@ -23,5 +23,9 @@ export const getters = {
 
   getPromoData (state) {
     return state.data.promoblock
+  },
+
+  getAdvantagesData (state) {
+    return state.data.advantages
   }
 }

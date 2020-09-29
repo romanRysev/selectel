@@ -7,9 +7,22 @@
   --h1-desktop-font-size: 28px;
   --h1-desktop-line-height: 36px;
 
+  --h2-desktop-font-weight: 400;
+  --h2-desktop-font-size: 32px;
+  --h2-desktop-line-height: 36px;
+
+  --h3-desktop-font-weight: 400;
+  --h3-desktop-font-size: 24px;
+  --h3-desktop-line-height: 32px;
+
   --p1-desktop-font-weight: 400;
   --p1-desktop-font-size: 18px;
   --p1-desktop-line-height: 24px;
+
+  --p2-desktop-font-weight: 400;
+  --p2-desktop-font-size: 16px;
+  --p2-desktop-line-height: 20px;
+
 
   --data-blue-color: #092433;
 }
@@ -17,6 +30,7 @@
 body {
   font-family: Manrope,Roboto,sans-serif;
   font-size: 16px;
+  color: var(--data-blue-color);
 }
 
 .container {
@@ -32,8 +46,26 @@ body {
   line-height: var(--h1-desktop-line-height);
 }
 
+.h2-desktop {
+  font-size: var(--h2-desktop-font-size);
+  font-weight: var(--h2-desktop-font-weight);
+  line-height: var(--h2-desktop-line-height);
+}
+
+.h3-desktop {
+  font-size: var(--h3-desktop-font-size);
+  font-weight: var(--h3-desktop-font-weight);
+  line-height: var(--h3-desktop-line-height);
+}
+
 .p1-desktop {
   font-size: var(--p1-desktop-font-size);
   font-weight: var(--p1-desktop-font-weight);
   line-height: var(--p1-desktop-line-height);
+}
+
+.p2-desktop {
+  font-size: var(--p2-desktop-font-size);
+  font-weight: var(--p2-desktop-font-weight);
+  line-height: var(--p2-desktop-line-height);
 }

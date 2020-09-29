@@ -2,6 +2,7 @@
   <div class="content">
     <Header />
     <Promo />
+    <Advantages />
   </div>
 </template>
 
