@@ -3,6 +3,7 @@
     <Header />
     <Promo />
     <Advantages />
+    <Products />
   </div>
 </template>
 

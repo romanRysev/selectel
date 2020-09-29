@@ -27,5 +27,9 @@ export const getters = {
 
   getAdvantagesData (state) {
     return state.data.advantages
+  },
+
+  getProductsData (state) {
+    return state.data.products
   }
 }
