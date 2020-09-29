@@ -1,7 +1,17 @@
 :root {
   --header-font-weight: bold;
   --header-font-size: 18px;
-  --header-line-height: 25px;;
+  --header-line-height: 25px;
+
+  --h1-desktop-font-weight: 400;
+  --h1-desktop-font-size: 28px;
+  --h1-desktop-line-height: 36px;
+
+  --p1-desktop-font-weight: 400;
+  --p1-desktop-font-size: 18px;
+  --p1-desktop-line-height: 24px;
+
+  --data-blue-color: #092433;
 }
 
 body {
@@ -10,5 +20,20 @@ body {
 }
 
 .container {
-  padding: 0 64px;
+  padding-left: 64px;
+  padding-right: 64px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.h1-desktop {
+  font-size: var(--h1-desktop-font-size);
+  font-weight: var(--h1-desktop-font-weight);
+  line-height: var(--h1-desktop-line-height);
+}
+
+.p1-desktop {
+  font-size: var(--p1-desktop-font-size);
+  font-weight: var(--p1-desktop-font-weight);
+  line-height: var(--p1-desktop-line-height);
 }

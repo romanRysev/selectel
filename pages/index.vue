@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div class="content">
     <Header />
+    <Promo />
   </div>
 </template>
 
@@ -12,4 +13,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+  .content {
+
+  }
+</style>

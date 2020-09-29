@@ -19,5 +19,9 @@ export const actions = {
 export const getters = {
   getData (state) {
     return state.data
+  },
+
+  getPromoData (state) {
+    return state.data.promoblock
   }
 }
