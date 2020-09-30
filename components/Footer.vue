@@ -29,19 +29,37 @@
         </p>
       </div>
       <div class="footer__social">
-        <img
+        <a href="https://t.me/SelectelNews" target="_blank">
+          <img
+            class="footer__social-icon"
+            src="/telegram.svg"
+            alt="Telegram"
+          ></a><a
+          href="https://www.facebook.com/selectel/"
+          target="_blank"
+        ><img
           class="footer__social-icon"
-          src="/telegram.svg"
-          alt="Telegram"
-        ><img class="footer__social-icon" src="/FB.svg" alt="Facebook"><img
-          class="footer__social-icon"
-          src="/VK.svg"
-          alt="Vkontakte"
+          src="/FB.svg"
+          alt="Facebook"
+        ></a>
+        <a
+          href="https://vk.com/selectel"
+          target="_blank"
+        ><img class="footer__social-icon" src="/VK.svg" alt="Vkontakte"></a><a
+          href="https://twitter.com/selectel"
+          target="_blank"
         ><img
           class="footer__social-icon"
           src="/twitter.svg"
           alt="Twitter"
-        ><img class="footer__social-icon" src="/habr.svg" alt="Habr">
+        ></a><a
+          href="https://habr.com/ru/company/selectel/"
+          target="_blank"
+        ><img
+          class="footer__social-icon"
+          src="/habr.svg"
+          alt="Habr"
+        ></a>
       </div>
     </div>
   </footer>
