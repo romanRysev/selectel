@@ -4,6 +4,7 @@
     <Promo />
     <Advantages />
     <Products />
+    <Footer />
   </div>
 </template>
 

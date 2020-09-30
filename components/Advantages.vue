@@ -28,6 +28,7 @@ export default {
   max-width: 740px;
   position: relative;
   left: -22px;
+  padding-top: 54px;
 }
 
 .advantages__title {

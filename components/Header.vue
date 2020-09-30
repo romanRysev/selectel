@@ -4,7 +4,7 @@
       <img src="/logo.svg" alt="Логотип" class="header__logo">
       <div class="header__contacts-container">
         <p class="header__number">
-          8 800 555 06 75
+          8&nbsp;800&nbsp;555&nbsp;06&nbsp;75
         </p>
         <p class="header__email">
           sales@selectel.ru
