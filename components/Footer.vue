@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container footer__container">
-      <img src="/footer-logo.svg" alt="Логотип" class="footer__logo">
+      <img src="footer-logo.svg" alt="Логотип" class="footer__logo">
       <nav>
         <ul class="footer__menu">
           <li><a class="footer__menu-link p1-desktop" href="#">Серверы</a></li>

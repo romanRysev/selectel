@@ -2,6 +2,7 @@
   <swiper class="swiper" :options="swiperOption">
     <swiper-slide v-for="item in bannersData" :key="item.id">
       <div class="slide">
+        <img class="slide-background" src="Rectangle.jpg" alt="">
         <h2 class="slide-title" v-html="item.title" />
         <p class="slide-description" v-html="item.description" />
       </div>
@@ -58,16 +59,24 @@ export default {
 
 <style>
 .slide {
-  width: 100vw;
+  max-width: 1440px;
   height: 620px;
-  background: url("/Rectangle.jpg");
   color: white;
   padding: 0 0 34px 64px;
   flex-direction: column;
   display: flex;
   justify-content: flex-end;
+  position: relative;
+  margin: auto;
 }
 
+.slide-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+}
 .swiper-pagination {
   color: white;
   margin-bottom: 50px;
@@ -92,6 +101,7 @@ export default {
   font-size: 64px;
   line-height: 87px;
   margin-bottom: 14px;
+  position: relative;
 }
 
 .slide-description {
@@ -100,6 +110,7 @@ export default {
   line-height: 33px;
   margin-left: 111px;
   max-width: 867px;
+  position: relative;
 }
 
 @media screen and (max-width: 970px) {
