@@ -29,7 +29,6 @@
 
 body {
   font-family: Manrope,Roboto,sans-serif;
-  font-size: 16px;
   color: var(--data-blue-color);
 }
 
@@ -68,4 +67,12 @@ body {
   font-size: var(--p2-desktop-font-size);
   font-weight: var(--p2-desktop-font-weight);
   line-height: var(--p2-desktop-line-height);
+}
+
+@media screen and (max-width: 770px) {
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 768px;
+}
 }

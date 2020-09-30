@@ -1,9 +1,11 @@
 <template>
   <div class="content">
     <Header />
+    <Slider />
     <Promo />
     <Advantages />
     <Products />
+    <Faq />
     <Footer />
   </div>
 </template>
@@ -17,7 +19,4 @@ export default {
 </script>
 
 <style>
-  .content {
-
-  }
 </style>

@@ -79,5 +79,21 @@ export default {
 .products-item__title {
   padding-bottom: 12px;
 }
-
+@media screen and (max-width: 770px) {
+  .products__items-container {
+    grid-template-columns: minmax(auto, 485px);
+    justify-content: center;
+  }
+  .products-item {
+    max-width: 485px;
+    padding: 16px 81px;
+    min-height: auto;
+  }
+  .products-item__title {
+    max-width: 323px;
+  }
+  .products-item__description {
+    max-width: 323px;
+  }
+}
 </style>

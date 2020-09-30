@@ -5,12 +5,18 @@
       <nav>
         <ul class="footer__menu">
           <li><a class="footer__menu-link p1-desktop" href="#">Серверы</a></li>
-          <li><a class="footer__menu-link p1-desktop" href="#">Оборудование</a></li>
-          <li><a class="footer__menu-link p1-desktop" href="#">Дата-центры</a></li>
+          <li>
+            <a class="footer__menu-link p1-desktop" href="#">Оборудование</a>
+          </li>
+          <li>
+            <a class="footer__menu-link p1-desktop" href="#">Дата-центры</a>
+          </li>
           <li><a class="footer__menu-link p1-desktop" href="#">Блог</a></li>
           <li><a class="footer__menu-link p1-desktop" href="#">Облако</a></li>
           <li><a class="footer__menu-link p1-desktop" href="#">Решения</a></li>
-          <li><a class="footer__menu-link p1-desktop" href="#">О Компании</a></li>
+          <li>
+            <a class="footer__menu-link p1-desktop" href="#">О Компании</a>
+          </li>
           <li><a class="footer__menu-link p1-desktop" href="#">Офисы</a></li>
         </ul>
       </nav>
@@ -59,9 +65,6 @@ export default {}
   align-items: end;
 }
 
-.footer__logo {
-}
-
 .footer__menu {
   display: grid;
   grid-template-columns: repeat(4, max-content);
@@ -95,4 +98,44 @@ export default {}
   margin-right: 18px;
 }
 
+@media screen and (max-width: 1259px) {
+  .footer__menu {
+    grid-column-gap: 74px;
+  }
+}
+
+@media screen and (max-width: 1147px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+  }
+  .footer__social {
+    grid-row: 2;
+  }
+}
+@media screen and (max-width: 770px) {
+  .footer__container {
+    padding: 40px 16px;
+  }
+  .footer__logo {
+    padding-bottom: 8px;
+  }
+  .footer__social {
+    margin-bottom: 28px;
+  }
+  .footer__menu {
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer__menu {
+    grid-column-gap: 44px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer__menu {
+    grid-template-columns: repeat(2, max-content);
+  }
+}
 </style>

@@ -31,5 +31,13 @@ export const getters = {
 
   getProductsData (state) {
     return state.data.products
+  },
+
+  getFaqData (state) {
+    return state.data.faq
+  },
+
+  getBannersData (state) {
+    return state.data.banners
   }
 }

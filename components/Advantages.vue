@@ -1,5 +1,5 @@
 <template>
-  <section class="advantages container">
+  <section class="advantages">
     <h2 class="advantages__title h2-desktop" v-html="data.title" />
     <p class="advantages__subtitle p2-desktop" v-html="data.subtitle" />
     <div v-for="item in data.items" :key="item.id" class="advantage-item">
@@ -27,8 +27,9 @@ export default {
 .advantages {
   max-width: 740px;
   position: relative;
-  left: -22px;
-  padding-top: 54px;
+  padding: 54px 0 64px 46px;
+  box-sizing: content-box;
+  margin: auto;
 }
 
 .advantages__title {
@@ -67,16 +68,30 @@ export default {
   height: 48px;
 }
 
-@media screen and (max-width: 1439px) {
-.advantages {
-  margin-left: 350px;
-}
-}
+@media screen and (max-width: 770px) {
+  .advantages {
+    max-width: 748px;
+    padding-left: 16px;
+    padding-top: 54px;
+    padding: 54px 0 32px 16px;
+  }
+  .advantage-item {
+    padding-top: 15px;
+  }
 
-@media screen and (max-width: 1105px) {
-.advantages {
-  margin-left: 30%;
-}
-}
+  .advantage-item__content-container {
+    flex-direction: column;
+    align-items: end;
+  }
+  .advantage-item__title {
+    margin-bottom: 16px;
+  }
 
+  .advantage-item__image {
+    margin-bottom: 16px;
+  }
+  .advantage-item__content ul {
+    padding-left: 152px;
+  }
+}
 </style>
