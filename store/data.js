@@ -1,4 +1,4 @@
-import data from '../store/data.json'
+import axios from 'axios'
 
 export const state = () => ({
   data: {}
@@ -12,7 +12,9 @@ export const mutations = {
 
 export const actions = {
   fetchData (state) {
-    return state.commit('setData', data)
+    return axios.get('https://selectel.ru/data/page.json').then((res) => {
+      return state.commit('setData', res.data)
+    })
   }
 }
 

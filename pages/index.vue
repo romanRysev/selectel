@@ -12,8 +12,8 @@
 
 <script>
 export default {
-  created () {
-    return this.$store.dispatch('data/fetchData')
+  async fetch ({ store }) {
+    await store.dispatch('data/fetchData')
   }
 }
 </script>
