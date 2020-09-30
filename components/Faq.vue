@@ -7,8 +7,8 @@
       <div v-for="item in data.items" :key="item.id" class="faq__item">
         <div class="faq__item-header-container">
           <div class="faq__item-question h3-desktop" v-html="item.question" />
-          <img class="faq__item-open-icon" src="/plus.svg" alt="Развернуть">
-          <img class="faq__item-close-icon" src="/minus.svg" alt="Свернуть">
+          <img class="faq__item-open-icon" src="plus.svg" alt="Развернуть">
+          <img class="faq__item-close-icon" src="minus.svg" alt="Свернуть">
         </div>
         <div class="faq__item-answer p2-desktop" v-html="item.answer" />
       </div>

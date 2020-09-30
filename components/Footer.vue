@@ -32,32 +32,32 @@
         <a href="https://t.me/SelectelNews" target="_blank">
           <img
             class="footer__social-icon"
-            src="/telegram.svg"
+            src="telegram.svg"
             alt="Telegram"
           ></a><a
           href="https://www.facebook.com/selectel/"
           target="_blank"
         ><img
           class="footer__social-icon"
-          src="/FB.svg"
+          src="FB.svg"
           alt="Facebook"
         ></a>
         <a
           href="https://vk.com/selectel"
           target="_blank"
-        ><img class="footer__social-icon" src="/VK.svg" alt="Vkontakte"></a><a
+        ><img class="footer__social-icon" src="VK.svg" alt="Vkontakte"></a><a
           href="https://twitter.com/selectel"
           target="_blank"
         ><img
           class="footer__social-icon"
-          src="/twitter.svg"
+          src="twitter.svg"
           alt="Twitter"
         ></a><a
           href="https://habr.com/ru/company/selectel/"
           target="_blank"
         ><img
           class="footer__social-icon"
-          src="/habr.svg"
+          src="habr.svg"
           alt="Habr"
         ></a>
       </div>

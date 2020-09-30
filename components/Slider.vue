@@ -60,7 +60,7 @@ export default {
 .slide {
   width: 100vw;
   height: 620px;
-  background: url("/Rectangle.jpg");
+  background: url("Rectangle.jpg");
   color: white;
   padding: 0 0 34px 64px;
   flex-direction: column;

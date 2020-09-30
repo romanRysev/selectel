@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <div class="container header__container">
-      <img src="/logo.svg" alt="Логотип" class="header__logo">
+      <img src="logo.svg" alt="Логотип" class="header__logo">
       <div class="header__contacts-container">
         <a
           class="header__contacts-link"
@@ -11,7 +11,7 @@
          </p>
           <img
             class="header__number-icon"
-            src="/tel.svg"
+            src="tel.svg"
             alt="Позвоните нам"
           ></a>
 
