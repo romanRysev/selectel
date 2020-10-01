@@ -72,7 +72,7 @@
 }
 @media screen and (max-width: 770px) {
   .header__container {
-    height: 64px;
+    height: 60px;
   }
   .header__email-icon {
     display: block;

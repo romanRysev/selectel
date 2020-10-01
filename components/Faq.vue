@@ -7,8 +7,16 @@
       <div v-for="item in data.items" :key="item.id" class="faq__item">
         <div class="faq__item-header-container" @click="boxToggler">
           <div class="faq__item-question h3-desktop" v-html="item.question" />
-          <img class="faq__item-open-icon faq__item-icon" src="plus.svg" alt="Развернуть">
-          <img class="faq__item-close-icon faq__item-icon hidden" src="minus.svg" alt="Свернуть">
+          <img
+            class="faq__item-open-icon faq__item-icon"
+            src="plus.svg"
+            alt="Развернуть"
+          >
+          <img
+            class="faq__item-close-icon faq__item-icon hidden"
+            src="minus.svg"
+            alt="Свернуть"
+          >
         </div>
         <div class="faq__item-answer p2-desktop hidden" v-html="item.answer" />
       </div>
@@ -27,20 +35,34 @@ export default {
     boxToggler () {
       if (event.target.classList.contains('faq__item-header-container')) {
         event.target.parentElement.lastElementChild.classList.toggle('hidden')
-        event.target.firstElementChild.nextElementSibling.classList.toggle('hidden')
-        event.target.firstElementChild.nextElementSibling.nextElementSibling.classList.toggle('hidden')
+        event.target.firstElementChild.nextElementSibling.classList.toggle(
+          'hidden'
+        )
+        event.target.firstElementChild.nextElementSibling.nextElementSibling.classList.toggle(
+          'hidden'
+        )
       }
 
       if (event.target.classList.contains('faq__item-question')) {
-        event.target.parentElement.parentElement.lastElementChild.classList.toggle('hidden')
+        event.target.parentElement.parentElement.lastElementChild.classList.toggle(
+          'hidden'
+        )
         event.target.nextElementSibling.classList.toggle('hidden')
-        event.target.nextElementSibling.nextElementSibling.classList.toggle('hidden')
+        event.target.nextElementSibling.nextElementSibling.classList.toggle(
+          'hidden'
+        )
       }
 
       if (event.target.classList.contains('faq__item-icon')) {
-        event.target.parentElement.parentElement.lastElementChild.classList.toggle('hidden')
-        event.target.parentElement.firstElementChild.nextElementSibling.classList.toggle('hidden')
-        event.target.parentElement.firstElementChild.nextElementSibling.nextElementSibling.classList.toggle('hidden')
+        event.target.parentElement.parentElement.lastElementChild.classList.toggle(
+          'hidden'
+        )
+        event.target.parentElement.firstElementChild.nextElementSibling.classList.toggle(
+          'hidden'
+        )
+        event.target.parentElement.firstElementChild.nextElementSibling.nextElementSibling.classList.toggle(
+          'hidden'
+        )
       }
     }
   }
@@ -48,7 +70,6 @@ export default {
 </script>
 
 <style>
-
 .hidden {
   display: none;
 }
