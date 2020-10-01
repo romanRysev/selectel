@@ -1,0 +1,7 @@
+.swiper-pagination {
+  color: chartreuse;
+  margin-bottom: 50px;
+  bottom: 0;
+  width: 100px;
+  left: calc(50% - 50px);
+}

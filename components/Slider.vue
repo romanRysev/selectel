@@ -63,6 +63,7 @@ export default {
 </script>
 
 <style>
+@import '~/assets/css/swiper.css';
 .slide {
   max-width: 1440px;
   height: 620px;
