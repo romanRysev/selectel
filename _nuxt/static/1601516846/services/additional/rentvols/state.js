@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1601516846",layout:"default",error:{statusCode:404,path:a,message:"This page could not be found"},state:{data:{data:{}}},serverRendered:false,routePath:a,config:{}}}("\u002Fservices\u002Fadditional\u002Frentvols"));
