@@ -84,30 +84,9 @@ export default {
     object-fit: cover;
     bottom: 0;
 }
-.swiper-pagination {
-  color: white;
-  margin-bottom: 50px;
-  bottom: 0;
-  width: 100px;
-  left: calc(50% - 50px);
-}
 
 .slide__button-container {
   max-width: 175px;
-}
-
-.swiper-button-next {
-  right: 45.5%;
-  bottom: 42px;
-  top: auto;
-  color: white;
-}
-
-.swiper-button-prev {
-  left: 45.5%;
-  bottom: 42px;
-  top: auto;
-  color: white;
 }
 
 .slide-title {
@@ -139,12 +118,6 @@ export default {
     margin-left: 100px;
     margin-bottom: 20px;
   }
-  .swiper-button-prev {
-    left: 40%;
-  }
-  .swiper-button-next {
-    right: 40%;
-  }
 }
 
 @media screen and (max-width: 770px) {
@@ -162,18 +135,6 @@ export default {
     line-height: 25px;
     margin-left: 0;
   }
-  .swiper-button-prev {
-    left: 17px;
-    bottom: 20px;
-  }
-  .swiper-button-next {
-    right: 17px;
-    bottom: 20px;
-  }
-
-.swiper-pagination {
-  margin-bottom: 28px;
-}
   .slide__button-container {
   max-width: 100%;
 }

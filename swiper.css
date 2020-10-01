@@ -1,7 +1,45 @@
 .swiper-pagination {
-  color: chartreuse;
+  color: white;
   margin-bottom: 50px;
   bottom: 0;
   width: 100px;
   left: calc(50% - 50px);
+}
+
+.swiper-button-next {
+  right: 45.5%;
+  bottom: 42px;
+  top: auto;
+  color: white;
+}
+
+.swiper-button-prev {
+  left: 45.5%;
+  bottom: 42px;
+  top: auto;
+  color: white;
+}
+
+@media screen and (max-width: 970px) {
+  .swiper-button-prev {
+    left: 40%;
+  }
+  .swiper-button-next {
+    right: 40%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .swiper-button-prev {
+    left: 17px;
+    bottom: 20px;
+  }
+  .swiper-button-next {
+    right: 17px;
+    bottom: 20px;
+  }
+
+.swiper-pagination {
+  margin-bottom: 28px;
+}
 }
