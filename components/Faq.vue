@@ -32,7 +32,7 @@ export default {
     }
   },
   methods: {
-    boxToggler () {
+    boxToggler () { // Понимаю, что выглядит страшно, но не придумал, как сделать изящнее.
       if (event.target.classList.contains('faq__item-header-container')) {
         event.target.parentElement.lastElementChild.classList.toggle('hidden')
         event.target.firstElementChild.nextElementSibling.classList.toggle(

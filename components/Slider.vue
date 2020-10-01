@@ -24,8 +24,8 @@ import {
   Navigation,
   Mousewheel,
   Autoplay
-} from 'swiper/swiper.esm'
-import getAwesomeSwiper from 'vue-awesome-swiper/dist/exporter'
+} from 'swiper/swiper.esm' //
+import getAwesomeSwiper from 'vue-awesome-swiper/dist/exporter' // без этих двух строчек свайпер не работает. Проблема известная, возможно потом починят)
 import 'swiper/swiper-bundle.min.css'
 import '../swiper.css'
 import vButton from '@/components/UI/vButton'
