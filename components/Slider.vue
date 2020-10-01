@@ -27,6 +27,7 @@ import {
 } from 'swiper/swiper.esm'
 import getAwesomeSwiper from 'vue-awesome-swiper/dist/exporter'
 import 'swiper/swiper-bundle.min.css'
+import '../swiper.css'
 import vButton from '@/components/UI/vButton'
 
 SwiperClass.use([Pagination, Mousewheel, Navigation, Autoplay])
@@ -63,7 +64,6 @@ export default {
 </script>
 
 <style>
-@import '~/assets/css/swiper.css';
 .slide {
   max-width: 1440px;
   height: 620px;
